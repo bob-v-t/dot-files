@@ -31,9 +31,6 @@ sudo apt-get install ttf-mscorefonts-installer fonts-droid fonts-inconsolata -y
 # Install `sensors` package (run: sensor-detect / sensors)
 sudo apt-get install lm-sensors
 
-# Install atom packages
-apm install atom-beautify auto-detect-indentation build build-grunt build-gulp color-picker compare-files docblockr emmet file-icons gist language-diff linter linter-eslint linter-jscs linter-jshint linter-php linter-stylelint markdown-toc merge-conflicts minimap minimap-linter minimap-pigments pigments project-manager react set-syntax terminal-panel tree-view-git-status 
-
 # Create the projects folder
 mkdir ~/projects
 

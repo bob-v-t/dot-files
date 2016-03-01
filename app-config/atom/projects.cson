@@ -1,0 +1,57 @@
+'display-scripts':
+  'title': 'display-scripts'
+  'group': 'Weborama display'
+  'icon': 'icon-device-desktop'
+  'settings':
+    '*':
+      'editor.tabLength': 4
+      #'project-manager.showPath': true
+  'paths': [
+    '~/projects/display-scripts'
+  ]
+
+'screenad-interface':
+  'title': 'screenad-interface'
+  'group': 'Weborama display'
+  'icon': 'icon-device-desktop'
+  'settings':
+    '*':
+      'editor.tabLength': 2
+  'paths': [
+    '~/projects/screenad-interface'
+  ]
+
+'screenad-template':
+  'title': 'screenad-template'
+  'group': 'Weborama display'
+  'icon': 'icon-device-desktop'
+  'settings':
+    '*':
+      'editor.tabLength': 2
+  'paths': [
+    '~/projects/screenad-template'
+  ]
+
+'admire-2-front-end':
+  'title': 'admire-2-front-end'
+  'group': 'Admire 2'
+  'icon': 'icon-telescope'
+  'settings':
+    '*':
+      'editor.tabLength': 2
+      #'project-manager.showPath': true
+  'paths': [
+    '~/projects/admire-2-front-end'
+  ]
+
+'admire-2-back-end':
+  'title': 'admire-2-back-end'
+  'group': 'Admire 2'
+  'icon': 'icon-telescope'
+  'settings':
+    '*':
+      'editor.tabLength': 4
+      #'project-manager.showPath': true
+  'paths': [
+    '~/projects/admire-2-back-end'
+  ]

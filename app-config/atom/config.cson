@@ -1,0 +1,58 @@
+"*":
+  build:
+    buildOnSave: true
+    panelVisibility: "Show on Error"
+  core:
+    autoHideMenuBar: true
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
+  docblockr:
+    extra_tags: [
+      "@date {{date}}"
+    ]
+  editor:
+    autoIndentOnPaste: true
+    fontFamily: "DejaVu Sans Mono"
+    invisibles:
+      cr: false
+      eol: false
+    preferredLineLength: 120
+    showIndentGuide: false
+    showInvisibles: true
+  "file-icons":
+    coloured: false
+    onChanges: true
+    tabPaneIcon: false
+  gist:
+    token: "REPLACE_WITH_ACTUAL_TOKEN"
+  linter:
+    errorPanelHeight: 26
+    lintOnFlyInterval: 1500
+    statusIconScope: "File"
+  "linter-eslint":
+    useGlobalEslint: false
+  "linter-jscs":
+    displayAs: "jscs Warning"
+    onlyConfig: true
+    preset: "grunt"
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "linter-stylelint":
+    disableWhenNoConfig: true
+  "markdown-preview":
+    # useGitHubStyle: true
+  minimap:
+    plugins:
+      linter: true
+      pigments: true
+    textOpacity: 0.4
+  "project-manager":
+    sortBy: "group"
+  react: {}
+  "terminal-panel": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false

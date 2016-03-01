@@ -70,10 +70,9 @@ sudo service avahi-daemon restart
 
 # Custom TODO's:
 
- * copy `projects.cson` and `config.cson` files for atom
+ * Place Git dot files in user dir. (.gitconfig, bash, prompt, vimrc)
+ * copy `projects.cson` and `config.cson` files for atom (`app-config/atom`)
  * Create SSH config
- * Config GIT
- * Edit bash (apply prompt.sh, add GRS to path and set git shortcuts)
  * Open tweak tool and set fonts to DejaVu Sans and Ubuntu Mono
  * Super+L is lock; Settings -> Keyboard -> Shortcuts -> System
  * Super+E is shortcut to open `Home folder` (nautilus)

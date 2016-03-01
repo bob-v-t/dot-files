@@ -1,0 +1,20 @@
+[core]
+        editor = vi
+        autocrlf = input
+[alias]
+        st = status
+        ci = commit
+        co = checkout
+        br = branch
+        rod = rebase origin/devel
+        dod = diff origin/devel -w
+        sl = log --graph --pretty=oneline --abbrev-commit --decorate
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+[commit]
+        template = ~/.git_commit_msg
+[push]
+        default = tracking

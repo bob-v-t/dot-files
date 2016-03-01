@@ -1,0 +1,11 @@
+# Directory shortcuts
+alias cdp="cd ~/projects"
+alias cdpa="cd ~/projects/adrime-legacy-display"
+alias cdpaf="cd ~/projects/admire-2-front-end"
+alias cdpab="cd ~/projects/admire-2-back-end"
+alias cdpd="cd ~/projects/display-scripts"
+alias cdpsi="cd ~/projects/screenad-interface"
+alias cdpst="cd ~/projects/screenad-template"
+alias cdpwai="cd ~/projects/weborama-ad-investigator"
+alias cdpia="cd ~/projects/integration/adrime-legacy-display"
+alias cdpid="cd ~/projects/integration/display-scripts"

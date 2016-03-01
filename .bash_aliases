@@ -1,33 +1,20 @@
 # This file is automatically picked up by Ubuntu, but it might need to be added
 # to the `.bashrc` by appending it with `. ~/.bash_aliases`
 
-export GIT_USER=bvantoorn
-export PATH="~/bin:$PATH" # To allow local bins to be found
-
-# Change the prompt
-. ~/.prompt.sh
-
-# Shortcuts
+# export PATH="~/bin:$PATH" # To allow local bins to be found (ubuntu already does this)
 alias g="git"
 
-# Directory shortcuts
-alias cdp="cd ~/projects"
-alias cdpa="cd ~/projects/adrime-legacy-display"
-alias cdpaf="cd ~/projects/admire-2-front-end"
-alias cdpab="cd ~/projects/admire-2-back-end"
-alias cdpd="cd ~/projects/display-scripts"
-alias cdpsi="cd ~/projects/screenad-interface"
-alias cdpst="cd ~/projects/screenad-template"
-alias cdpwai="cd ~/projects/weborama-ad-investigator"
-alias cdpia="cd ~/projects/integration/adrime-legacy-display"
-alias cdpid="cd ~/projects/integration/display-scripts"
+# Change the prompt
+if [ -f ~/.bash_prompt.sh ]; then
+    . ~/.bash_prompt.sh
+fi
 
-# GRS $PATH + aliases
-export PATH=$HOME/.grs/grs/bin:$PATH
-alias gr="git redmine"
-alias grr="git redmine review"
-alias grrs="git redmine review start"
-alias grrf="git redmine review finish -f -a -n -t"
-alias grt="git redmine task"
-alias grts="git redmine task start"
-alias grtf="git redmine task finish -t"
+# Add shortcuts for GRS (e.g.: `grrf 0.4`)
+if [ -f ~/.bash_grs.sh ]; then
+    . ~/.bash_grs.sh
+fi
+
+# Add project dir shortcuts for easy folder switching
+if [ -f ~/.bash_dir_shortcuts.sh ]; then
+    . ~/.bash_dir_shortcuts.sh
+fi

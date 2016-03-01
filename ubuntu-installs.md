@@ -31,6 +31,14 @@ sudo apt-get install ttf-mscorefonts-installer fonts-droid fonts-inconsolata -y
 # Install `sensors` package (run: sensor-detect / sensors)
 sudo apt-get install lm-sensors
 
+# Install Arduino 1.6.7
+wget https://downloads.arduino.cc/arduino-1.6.7-linux64.tar.xz
+tar -xvf arduino-1.6.7.*.tar.xz
+sudo mv arduino-1.6.7 /opt
+cd /opt/arduino-1.6.7
+chmod +x install.sh
+./install.sh
+
 # Create the projects folder
 mkdir ~/projects
 

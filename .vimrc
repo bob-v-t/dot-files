@@ -1,0 +1,2 @@
+colo desert
+syntax on

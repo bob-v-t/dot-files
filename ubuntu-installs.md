@@ -110,7 +110,7 @@ sudo service avahi-daemon restart
  * Set of misc other settings:
    https://help.ubuntu.com/community/AsusZenbook
  * Intel driver. https://01.org/linuxgraphics/downloads/intel-graphics-installer-linux-1.2.1
- * Install xfce4-terminal to replace gnome one
+ * Install xfce4-terminal to replace gnome one + `sudo update-alternatives –config x-terminal-emulator`
  * TODO: Having problem with hibernation.
  * TODO: Optimize SSD (if needed) to increase SSD lifetime: http://www.howtogeek.com/62761/how-to-tweak-your-ssd-in-ubuntu-for-better-performance/
 

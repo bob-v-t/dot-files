@@ -31,6 +31,14 @@ sudo apt-get install ttf-mscorefonts-installer fonts-droid fonts-inconsolata -y
 # Install `sensors` package (run: sensor-detect / sensors)
 sudo apt-get install lm-sensors
 
+# Install Arduino 1.6.7
+wget https://downloads.arduino.cc/arduino-1.6.7-linux64.tar.xz
+tar -xvf arduino-1.6.7.*.tar.xz
+sudo mv arduino-1.6.7 /opt
+cd /opt/arduino-1.6.7
+chmod +x install.sh
+./install.sh
+
 # Create the projects folder
 mkdir ~/projects
 
@@ -112,7 +120,7 @@ sudo service avahi-daemon restart
  * Set of misc other settings:
    https://help.ubuntu.com/community/AsusZenbook
  * Intel driver. https://01.org/linuxgraphics/downloads/intel-graphics-installer-linux-1.2.1
- * Install xfce4-terminal to replace gnome one
+ * Install xfce4-terminal to replace gnome one + `sudo update-alternatives –config x-terminal-emulator`
  * TODO: Having problem with hibernation.
  * TODO: Optimize SSD (if needed) to increase SSD lifetime: http://www.howtogeek.com/62761/how-to-tweak-your-ssd-in-ubuntu-for-better-performance/
 

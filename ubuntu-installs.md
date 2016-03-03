@@ -50,6 +50,16 @@ sudo apt-get install caffeine
 ```
 ---
 
+# SSHFS
+
+``` bash
+sudo apt-get install sshfs
+mkdir /media/MOUNT_POINT
+sshfs USERNAME@HOST:/full/path/to/folder/ /media/MOUNT_POINT/
+```
+
+# GRS
+
 ``` bash
 # Install and configure GRS:
 sudo apt-get install python-software-properties software-properties-common

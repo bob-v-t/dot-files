@@ -55,6 +55,9 @@ sudo apt-get install filezilla
 
 # Install caffeine to allow movies in browser to run without screensaver interference:
 sudo apt-get install caffeine
+
+# Support for mounting exfat disks
+sudo apt-get install exfat-fuse exfat-utils
 ```
 ---
 
@@ -100,7 +103,7 @@ sudo service avahi-daemon restart
  * CPU monitor (indicator-multiload)
  * Change alt-tab behavior from switch-applications to switch-windows: http://superuser.com/questions/394376/how-to-prevent-gnome-shells-alttab-from-grouping-windows-from-similar-apps
  * Set to false using dconf editor: org.gnome.shell.workspaces-only-on-primary
- * Gnome extension: TopIcons
+ * Gnome extension: TopIcons, Hide Top Bar, Workspace Grid
  * Install gnome extension for redmine (https://extensions.gnome.org/extension/790/redmine-issues/)
  * For FF: Install `User Agent Switcher` plugin and load XML from here: http://techpatterns.com/downloads/firefox/useragentswitcher.xml
  * Setting up VPN is a pain:

@@ -22,6 +22,6 @@ The virtual machine should now be able to boot.
 
 To adjust the resolution, run this command
 ``` bash
-VBoxManage setextradata "{YOUR VIRTUAL MACHINE'S NAME}" VBoxInternal2/EfiGopMode NEW_NUMBER
+VBoxManage setextradata "{YOUR VIRTUAL MACHINE'S NAME}" "VBoxInternal2/EfiGopMode" NEW_NUMBER
 # Where `NEW_NUMBER` = 0-5 > 640x480, 800x600, 1024x768, 1280x1024, 1440x900, 1900x1200
 ```

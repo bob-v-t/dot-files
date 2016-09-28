@@ -10,3 +10,10 @@ The `.git*` files set Git aliases and apply a commit message template.
 The `.vimrc` currently only sets the default theme to `desert`. This makes blue text more readable when launched from xterm coloured console.
 
 The `ubuntu-installs.md` describes most of the packages that I install on Ubuntu together with the configurations.
+
+## NPM packages to install
+
+- astii
+- jshint
+- eslint
+- http-server

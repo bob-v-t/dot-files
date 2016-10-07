@@ -4,10 +4,10 @@ First install the atom packages below.
 
 ``` bash
 # basics
-apm install docblockr editorconfig language-diff merge-conflicts project-manager set-syntax
+apm install docblockr editorconfig language-diff merge-conflicts project-manager set-syntax tree-view-git-status
 
 # extras
-apm install atom-beautify color-picker gist emmet file-icons markdown-toc minimap minimap-linter minimap-pigments pigments terminal-panel tree-view-git-status
+apm install atom-beautify color-picker gist emmet file-icons markdown-toc minimap minimap-linter minimap-pigments pigments terminal-panel
 
 # not sure if still needed
 apm install auto-detect-indentation build build-grunt build-gulp compare-files react

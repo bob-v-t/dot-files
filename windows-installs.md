@@ -60,9 +60,17 @@ npm-windows-upgrade
 ```
  > Source: http://stackoverflow.com/questions/18412129/how-do-i-update-node-and-npm-on-windows
 
+**Installing common windows build tools, like python**
+
+``` bash
+npm install --global --production windows-build-tools
+```
+
 
 **Setting the command prompt colors:**
  - https://gist.github.com/P4/4245793
+
+(change red and blue to monokai theme)
 
 **Disable Intel HD hotkeys:**
 ```CTRL+ALT+F12 -> Options and support```

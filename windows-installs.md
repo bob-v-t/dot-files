@@ -13,6 +13,10 @@
 
 ---
 
+## Installing support for Ubuntu
+(don't!!)
+http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
+
 ## Installs:
 
 - [Spotify](https://www.spotify.com/nl/download/windows/)

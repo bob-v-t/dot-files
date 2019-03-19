@@ -1,9 +1,4 @@
 # Directory shortcuts
 alias cdp="cd ~/projects"
-alias cdpa="cd ~/projects/weborama/adrime-display-scripts"
-alias cdpaf="cd ~/projects/weborama/admire-2-front-end"
-alias cdpab="cd ~/projects/weborama/admire-2-back-end"
-alias cdpd="cd ~/projects/weborama/display-scripts"
-alias cdpsi="cd ~/projects/weborama/screenad-interface"
-alias cdpst="cd ~/projects/weborama/screenad-template"
-alias cdpwai="cd ~/projects/weborama/weborama-ad-investigator"
+alias cdps="cd ~/projects/screen6"
+alias cdpp="cd ~/projects/personal"

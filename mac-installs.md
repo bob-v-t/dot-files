@@ -16,7 +16,8 @@ Backup:
 scroll reverser
 SensibleSideButtons
 hyperdock
-owly
+KeepingYouAwake
+
 borat background :)
 vscode + config + project config
 front
